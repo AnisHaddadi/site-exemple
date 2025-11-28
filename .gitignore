@@ -26,3 +26,5 @@ build/
 .next/
 .vercel/
 
+.vercel
+.env*.local
