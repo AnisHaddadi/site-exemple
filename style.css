@@ -583,7 +583,7 @@ body {
 /* Chatbot */
 #chatbot-button {
     position: fixed;
-    bottom: 24px;
+    bottom: 80px;
     right: 24px;
     background: var(--couleur-primaire);
     min-width: 70px;
@@ -611,7 +611,7 @@ body {
 
 #chatbot-window {
     position: fixed;
-    bottom: 95px;
+    bottom: 150px;
     right: 24px;
     width: 360px;
     max-width: calc(100vw - 48px);
@@ -668,6 +668,8 @@ body {
     max-width: 80%;
     margin-left: auto;
     word-wrap: break-word;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .message-bot {
@@ -712,12 +714,12 @@ body {
     #chatbot-window {
         width: calc(100vw - 32px);
         right: 16px;
-        bottom: 85px;
+        bottom: 140px;
     }
 
     #chatbot-button {
         right: 16px;
-        bottom: 16px;
+        bottom: 70px;
     }
 
     .features-grid {
