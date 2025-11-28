@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Business - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="nav-brand">Mon Business</div>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Accueil</a>
+                <a href="contact.html">Contact</a>
+                <a href="avis.html">Avis</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Bienvenue sur notre site</h1>
+            <p class="hero-subtitle">Découvrez nos services et laissez-vous guider par une expérience unique.</p>
+            <div class="hero-buttons">
+                <a href="contact.html" class="btn btn-primary">Nous contacter</a>
+                <a href="avis.html" class="btn btn-secondary">Voir les avis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Features -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Ce que le site peut contenir</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">★</div>
+                    <h3>Avis clients modernes</h3>
+                    <p>Affichage élégant des témoignages clients avec système de notation interactif.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✉</div>
+                    <h3>Contact WhatsApp</h3>
+                    <p>Formulaire de contact intégré qui envoie directement vos messages sur WhatsApp.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">●</div>
+                    <h3>Chatbot intelligent</h3>
+                    <p>Assistant IA disponible 24/7 pour répondre à toutes vos questions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Exemple -->
+    <section class="demo-section">
+        <div class="container">
+            <h2 class="section-title">À propos de ce site</h2>
+            <p class="demo-text">
+                Ce site web a été conçu pour présenter les fonctionnalités modernes que nous pouvons intégrer à votre présence en ligne. Il s'agit d'un exemple démonstratif qui illustre les différentes possibilités offertes par notre solution, allant de la mise en avant de vos avis clients à l'intégration d'un système de contact direct via WhatsApp.
+            </p>
+            <p class="demo-text">
+                Chaque élément peut être personnalisé selon vos besoins spécifiques et votre identité de marque. Notre objectif est de créer un site web qui reflète parfaitement votre activité tout en offrant une expérience utilisateur optimale à vos visiteurs.
+            </p>
+        </div>
+    </section>
+
+    <!-- Chatbot -->
+    <div id="chatbot-button">Chat</div>
+    <div id="chatbot-window">
+        <div id="chatbot-messages"></div>
+        <input id="chatbot-input" placeholder="Écrivez votre message..." />
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>
+

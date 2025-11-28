@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Business - Avis clients</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="nav-brand">Mon Business</div>
+            <nav class="nav-links">
+                <a href="index.html">Accueil</a>
+                <a href="contact.html">Contact</a>
+                <a href="avis.html" class="active">Avis</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Introduction -->
+    <section class="page-intro">
+        <div class="container">
+            <h1>Ce que nos clients disent de nous</h1>
+            <p>Votre satisfaction est notre priorité. Découvrez les témoignages de nos clients satisfaits.</p>
+        </div>
+    </section>
+
+    <!-- Carrousel d'avis -->
+    <section class="temoignages-slider">
+        <div class="container">
+            <h2>Ils nous font confiance</h2>
+            <div class="slider-container" id="slider-container">
+                <!-- Les avis seront générés dynamiquement par JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Module étoiles -->
+    <section class="module-etoiles">
+        <div class="container">
+            <h3>Votre avis compte pour nous</h3>
+            <p>Partagez votre expérience en un clic.</p>
+            <div class="stars" role="radiogroup">
+                <button class="star" data-value="1">★</button>
+                <button class="star" data-value="2">★</button>
+                <button class="star" data-value="3">★</button>
+                <button class="star" data-value="4">★</button>
+                <button class="star" data-value="5">★</button>
+            </div>
+            <button id="send-rating" disabled>Continuer</button>
+        </div>
+    </section>
+
+    <!-- Chatbot -->
+    <div id="chatbot-button">Chat</div>
+    <div id="chatbot-window">
+        <div id="chatbot-messages"></div>
+        <input id="chatbot-input" placeholder="Écrivez votre message..." />
+    </div>
+
+    <script src="avis.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>
+

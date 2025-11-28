@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Business - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="nav-brand">Mon Business</div>
+            <nav class="nav-links">
+                <a href="index.html">Accueil</a>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="avis.html">Avis</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Contact -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Contactez-nous</h1>
+            <p class="contact-hero-subtitle">Nous sommes là pour répondre à toutes vos questions</p>
+        </div>
+    </section>
+
+    <!-- Section Contact Moderne -->
+    <section class="contact-modern-section">
+        <div class="container">
+            <div class="contact-modern-grid">
+                <!-- Carte WhatsApp Direct -->
+                <div class="whatsapp-card">
+                    <div class="whatsapp-icon">✉</div>
+                    <h2>Contactez-nous directement</h2>
+                    <p>Cliquez sur le bouton ci-dessous pour nous écrire sur WhatsApp. Nous vous répondrons dans les plus brefs délais.</p>
+                    <a href="https://wa.me/33767293039" class="btn btn-whatsapp" target="_blank">
+                        Ouvrir WhatsApp
+                    </a>
+                    <p class="whatsapp-number">07 67 29 30 39</p>
+                </div>
+
+                <!-- Formulaire -->
+                <div class="contact-form-modern">
+                    <h2>Envoyez-nous un message</h2>
+                    <p class="form-subtitle">Remplissez le formulaire ci-dessous et nous vous répondrons rapidement</p>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="06 12 34 56 78" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" placeholder="Objet de votre message" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Votre message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Envoyer via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Informations supplémentaires -->
+            <div class="contact-info-modern">
+                <div class="info-card">
+                    <h3>Horaires</h3>
+                    <p>Lundi - Vendredi<br>9h00 - 18h00</p>
+                    <p>Samedi<br>9h00 - 12h00</p>
+                </div>
+                <div class="info-card">
+                    <h3>Réactivité</h3>
+                    <p>Nous répondons généralement dans les 24 heures suivant votre demande.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Besoin d'aide ?</h3>
+                    <p>N'hésitez pas à utiliser le chatbot en bas à droite de l'écran pour des questions rapides.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot -->
+    <div id="chatbot-button">Chat</div>
+    <div id="chatbot-window">
+        <div id="chatbot-messages"></div>
+        <input id="chatbot-input" placeholder="Écrivez votre message..." />
+    </div>
+
+    <script src="contact.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>

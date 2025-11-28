@@ -1,0 +1,23 @@
+{
+  "name": "site-exemple-premium",
+  "version": "1.0.0",
+  "description": "Site vitrine premium style Apple avec chatbot IA, avis clients et contact WhatsApp",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "openai": "^4.20.0"
+  },
+  "keywords": [
+    "website",
+    "premium",
+    "chatbot",
+    "whatsapp",
+    "reviews"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
